@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>JavaScript StopWatch</title>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+        <link href="./assets/styles/main.css" rel="stylesheet" />
+        <script src="./assets/scripts/main.js" defer></script>
+    </head>
+    <body>
+        <div class="stopwatch">
+            <h1>Javascript Stopwatch</h1>
+
+            <p class="stopwatch__marker">
+                <span class="stopwatch__hours">00</span>
+                :
+                <span class="stopwatch__minutes">00</span>
+                :
+                <span class="stopwatch__seconds">00</span>
+            </p>
+
+            <div class="stopwatch__controls">
+                <button onclick="stopwatch.initialize()">Start</button>
+                <button onclick="stopwatch.restart()" disabled>Restart</button>
+            </div>
+        </div>
+    </body>
+</html>
